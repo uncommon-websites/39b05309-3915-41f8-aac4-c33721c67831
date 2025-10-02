@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+
+	// Icons
+	import IconSearch from "~icons/lucide/search";
+	import IconClock from "~icons/lucide/clock";
+	import IconTrendingDown from "~icons/lucide/trending-down";
+	import IconHandshake from "~icons/lucide/handshake";
+	import IconBarChart from "~icons/lucide/bar-chart-3";
+	import IconZap from "~icons/lucide/zap";
 </script>
 
 <Hero
@@ -72,24 +80,44 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Everything you need"
+	subtitle="Order dental supplies the way it should be"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Search across all suppliers",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Find any product instantly across 12+ trusted suppliers including Henry Schein, ADT, and Dental Addict without opening multiple browser tabs.",
+			icon: IconSearch
 		},
 		{
-			title: "Data Analysis",
+			title: "Save hours every week",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Stop wasting time comparing prices and stock availability. Spend more time with patients and less time ordering supplies.",
+			icon: IconClock
 		},
 		{
-			title: "Secure Collaboration",
+			title: "See your best prices",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"View real-time pricing with your existing negotiated discounts and account-specific terms, so you always get the deal you earned.",
+			icon: IconTrendingDown
+		},
+		{
+			title: "Keep your trusted partners",
+			description:
+				"We're not a supplier, we're a search tool that works with your existing relationships, prices, and payment terms.",
+			icon: IconHandshake
+		},
+		{
+			title: "Understand your spending",
+			description:
+				"Track monthly supply costs and discover optimization opportunities with clear insights into your purchasing patterns.",
+			icon: IconBarChart
+		},
+		{
+			title: "Order in one click",
+			description:
+				"Place orders across multiple suppliers simultaneously with a single checkout, making restocking as simple as turning on the light.",
+			icon: IconZap
 		}
 	]}
 />

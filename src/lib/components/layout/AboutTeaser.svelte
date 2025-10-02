@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Thibaut Bossuyt",
+		role: "Co-founder, Orthodontist",
+		image: "/generated/image-a-professional-orthodontist-in-a-modern-.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"During my orthodontic training, I spent hours every week juggling supplier websites just to order gloves and supplies. I kept thinking: in our daily lives, everything is effortless now. Why should our professional lives still be stuck in the past?"`}
 			/>
 
 			<!-- Team Member & CTA Section -->

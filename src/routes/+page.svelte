@@ -121,5 +121,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop juggling browser tabs."
+	subtitle="Start treating more patients."
+	description="Join Belgian dental practices saving hours every week on supply ordering. Keep your existing suppliers, prices, and payment terms. Just order faster."
+	imageSrc="/generated/image-a-happy-belgian-dentist-early-40s-stands.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Get started free",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>

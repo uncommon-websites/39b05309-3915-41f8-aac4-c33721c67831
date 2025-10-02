@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="All your dental supplies,"
+	subtitle="one effortless search"
+	imageSrc="/generated/image-medium-wide-environmental-documentary-ph.webp"
+	centered={false}
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Get started"
+		},
+		{
+			href: "/about",
+			label: "Learn more"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by dental practices across Belgium"
+	logoUrls={[
+		'https://cdn.brandfetch.io/tandartspraktijk.nl/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/dentalclinic.be/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/smilecenter.be/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/orthocare.be/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
